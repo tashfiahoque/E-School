@@ -1,0 +1,221 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;;
+}
+/*** Header section start ***/
+header{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+/*** Navbar section start ***/
+.logo img{
+    width: 198px;
+    height: 59px;
+}
+.menu ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000 !important;
+    padding: 12px 25px !important;
+    border-radius: 33px;
+    transition: 1s ease-in;
+}
+.menu ul li a:hover{
+    background-color: #21B573;  
+}
+.navbar-light .navbar-nav .nav-item.active .nav-link{
+    background-color: #21B573;  
+    color: #000;
+}
+/*** Navbar section end ***/
+/*** Header section end ***/
+/*** Banner section start ***/
+.banner{
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 60px;
+    background-color: #F0FFF0;
+}
+h3{
+    color: #FD511A;
+    font-size: 16px;
+    font-weight: 400;
+}
+h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+span{
+    color: #21B573;
+}
+p{
+    padding: 15px 0;
+    font-size: 16px;
+    line-height: 36px;
+    color: #6C6B6B;
+}
+.get_started{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: #21B573;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 33px;
+    cursor: pointer;
+    transition: 1s ease;
+}
+.get_started:hover{
+    background-color: black;
+}
+/*** Banner section end ***/
+/*** About site section start ***/
+.about_site{
+    padding: 30px 0px;
+}
+.card1, .card2, .card3, .card4{
+    text-align: center;
+    padding: 100px 0;
+    background-color:#F8FFFB;
+}
+.card1:hover, .card2:hover, .card3:hover, .card4:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.card1 img{
+    width: 66px;
+}
+.card2 img{
+    width: 80px;
+}
+.card3 img{
+    width: 75px;
+}
+.card4 img{
+    width: 68px;
+}
+h2{
+    font-size: 24px;
+    font-weight: 500;
+    color: #413960;
+    line-height: 60px;
+}
+h4{
+    font-weight: 400;
+    font-size: 16px;
+    color: #585859;
+    line-height: 0px;
+}
+/*** About site section end ***/
+/*** Courses section start ***/
+.course_title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    color: #413960;
+    padding: 60px 0px;
+}
+.course1, .course2, .course3{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    border: none;
+}
+.course_img{
+    padding: 20px;
+    border-radius: 11px;
+}
+.card-title{
+    font-weight: 500;
+    font-size: 24px;
+    color: #413960;
+}
+.card-sub-title{
+    font-weight: 400;
+    font-size: 16px;
+    color: #585859;
+    padding-bottom: 18px;
+}
+.buy-course-button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 8px 28px;
+    background-color: #21B573;
+    border: none;
+    border-radius: 33px;
+}
+.buy-course-button:hover{
+    background-color: #000;
+    transition: 1s ease;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+.menu1_item img{
+    width: 18px;
+    height: 20px;
+}
+.menu1_item_text{
+    font-weight: 500;
+    font-size: 14px;
+    color: #585859;
+}
+/*** Courses section end ***/
+/*** Testimonial section start ***/
+.testimonial_title{
+    font-weight: 700;
+    font-size: 36px;
+    color: #000000;
+    padding: 50px 0px;
+    text-align: center;
+}
+.testimonial_text p{
+    font-weight: 400;
+    font-size: 12px;
+    color: #000000;
+    text-align: justify;
+}
+/*** Testimonial section end ***/
+/*** Footer section start ***/
+footer{
+    background: #282531;
+    margin-top: 70px;
+    padding-top: 60px;
+}
+.footer_p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.footer_list_title{
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.footer_list li{
+    padding: 8px 0px;
+    border: none;
+    background-color: #282531;
+}
+.footer_list li a{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+.copyright{
+    font-weight: 400;
+    font-size: 16px;
+    color: #CDCDCD;
+    text-align: center;
+    padding-top: 50px;
+}
+/*** Footer section end ***/
